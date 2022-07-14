@@ -1,0 +1,41 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    margin: auto;
+    margin-top: 6vh;
+    flex-wrap: wrap;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+::-webkit-scrollbar-track {
+    background: white;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: dimgray;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: darkslategrey;
+}
+
+@media screen and (min-width: 800px) {
+    .body {
+      margin: 1em 2em;
+    }
+  }

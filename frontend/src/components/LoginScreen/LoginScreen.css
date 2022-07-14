@@ -1,0 +1,51 @@
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:-webkit-linear-gradient(to right, #8e9eab, #eef2f3) linear-gradient(to right, #8e9eab, #eef2f3);
+    height: 100vh;
+}
+.register-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 30vh;
+    height: 60vh;
+    flex-direction: column;
+    border-radius: 2vmin;
+
+}
+.field-name {
+    font-family: sans-serif;
+    font-size: 2vmin;
+
+}
+.input-field {
+    width: 15vh;
+    height: 5vh;
+    border-radius: 0.5rem;
+    font-size: 2vmin;
+}
+.field-div {
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+}
+.button {
+    width: 13vh;
+    height: 6vh;
+    font-family: sans-serif;
+    border-radius: 1vmin;
+    margin: 3vmin;
+    background-color: #4d9cf0;
+    color: white;
+    font-size: 2vmin;
+
+}
+
+@media screen and (min-width: 800px) {
+    .main-div {
+      margin: 1em 2em;
+    }
+  }

@@ -1,0 +1,102 @@
+.container {
+    width: 80%;
+    height: 85vh;
+    margin: 70px auto;
+    display: flex;
+    border-radius: 10px;
+    background:  #3a36e4;
+    background: -webkit-linear-gradient(
+        to right,
+        #3a36e4,
+        #acc3fd
+    ); 
+    background:linear-gradient(
+        to right,
+        #3a36e4,
+        #acc3fd
+    );
+}
+
+h1 {
+font-size: 55px;
+letter-spacing: 2px;
+font-family: 'Nerko One', cursive; 
+
+}
+
+.brand-box {
+    flex: 1 50%;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+}
+.magic-form {
+    flex:  50%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 70px;
+    font-size: 23px;
+    color: #3f3f40;
+    background: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.input{
+    padding: 4px 6px;
+    font-size: 16px;
+    width: 80%;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+input:focus {
+    background-color: #f0f5fa;
+    outline: none;
+}
+.input-feedback {
+    text-align: left ;
+    font-size: 17px;
+    color: red;
+
+}
+
+button {
+    max-width: 150px;
+    margin: 20px 0;
+    padding: 8px 12px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #185a94;
+    box-shadow: 0px 2px rgba(0, 0, 0.15);
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed !important;
+}
+.topMargin {
+    margin-top: 1rem;
+}
+body {
+    background: -webkit-linear-gradient(to right, #8e9eab, #eef2f3);         
+    background: linear-gradient(to right, #8e9eab, #eef2f3); 
+    
+   
+}
+code {
+    font-family: source-code-pro , Menlo,Monaco,Consolas, "Courier New",
+    monospace;
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+      margin-right: auto;
+    }
+  }

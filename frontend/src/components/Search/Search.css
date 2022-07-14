@@ -1,0 +1,17 @@
+.search {
+    position:absolute;
+    top: 18px;
+    right: 900px;
+    display: block;
+   
+}
+.search input {
+  background-color: rgb(240, 247, 247);
+  font-size: 25px;
+}
+
+@media screen and (min-width: 800px) {
+  .search {
+    margin: auto;
+  }
+}

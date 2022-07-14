@@ -1,0 +1,42 @@
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    background: -webkit-linear-gradient(to right, #0b0c0c, #070707);
+    background: linear-gradient(to right, #030303, #1c1d1d); 
+    font-size: 30px;
+    list-style-type: none;
+    margin: 10;
+    padding: 10px;
+    overflow: hidden;
+    display: block ;
+    color: white;
+}
+
+li {
+    float: left;
+    display: block;
+    padding:auto;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+  
+}
+li ul {
+    float: left;
+    display: flex;
+    margin: 5px;
+    color: white;
+}
+.topbar {
+    list-style-type: none;
+    
+}
+
+@media screen and (min-width: 800px) {
+    .navv {
+      margin: auto;
+    }
+  }
+
+
